@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.LastsNewsButton{
+    position: relative;
+    width: auto;
+    background-color: #FFCC00;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.5rem;
+    text-align: center;
+    top: 35%;
+    left: 14%;
+    cursor: pointer;
+}
+
+.LastsNewsButton:hover{
+    opacity: .7;
+}

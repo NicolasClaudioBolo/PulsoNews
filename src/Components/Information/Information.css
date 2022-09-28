@@ -1,0 +1,53 @@
+/* 
+<section className='information-section'>
+    <div className='information-dolar-container'>
+        <span className='information-span-oficial'>Dolar oficial</span>
+        <span className='information-span-parallel'>Dolar paralelo</span>
+    </div>
+    <div className='information-risk-country-container'>
+        <span>Riesgo país</span>
+    </div>
+</section>
+ */
+
+ 
+ .information-section {
+     /* width: 100%; */
+     margin: 20px 0;
+     font-style: italic;
+     font-weight: 700;
+     color: #31404B;
+     font-size: .8rem;
+     text-transform: uppercase;
+     font-family: 'Montserrat', sans-serif;
+     margin-top: 1vw;
+     margin-bottom: .5vw;
+     background-color: #FFF;
+     border: 1px solid #dee2e6;
+     padding: 8px;
+ }
+
+ .information-dolar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+.information-risk-country-container {
+    display: none;
+}
+ 
+@media (min-width: 565px) {
+    .information-risk-country-container {
+        display: flex;  
+    }
+}
+ 
+
+@media (min-width: 1500px) {
+    .information-dolar-container {
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+     }
+}

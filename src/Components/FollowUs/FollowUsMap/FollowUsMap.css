@@ -1,0 +1,7 @@
+
+@media (min-width: 1240px) {
+    .social-container{
+        height: fit-content;
+        padding: 0px 10px 10px 10px;
+    }    
+}

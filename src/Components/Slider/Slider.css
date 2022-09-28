@@ -1,0 +1,116 @@
+/* .mySwiper{
+    display: flex;
+    flex-direction: column;
+    
+} */
+
+.swiper {
+    width: 90vw;
+    height: 65vw;
+   
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    
+}
+
+@media (max-width: 768px) {
+
+    .home-swiper{
+        width: 100%!important;
+        height: 44vw;
+        margin: 0;
+    }
+    .swiper {
+        width: 97vw;
+        height: 65vw;
+        margin: 0 auto;
+       
+    }
+}
+
+@media (min-width: 960px) {
+    .swiper {
+        width: 40vw;
+        height: 30vw;
+        margin: 0;
+    }
+    
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+    
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .home-swiper{
+        width: 100%!important;
+        height: 44vw;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1240px) {
+    .swiper {
+        width: 40vw;
+        height: 30vw;
+        margin: 0;
+    }
+    
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+    
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .home-swiper{
+        width: 100%!important;
+        height: 44vw;
+        margin: 0;
+    }
+ 
+}
+

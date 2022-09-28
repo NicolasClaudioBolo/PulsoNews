@@ -1,0 +1,19 @@
+
+   .main-div-card {
+    display: flex;
+    height: 90vw;
+}
+
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1240px) {
+    .main-div-card {
+        display: flex;
+        width: 50vw;
+        height: 30vw;
+        margin-left:20rem;
+        margin-bottom: 20vh;
+    }
+
+}

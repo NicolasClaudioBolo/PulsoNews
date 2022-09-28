@@ -1,0 +1,16 @@
+.publicity-second{
+    width: 40vw;
+    height: 11vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.logo-publicidad-banner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 0;
+}

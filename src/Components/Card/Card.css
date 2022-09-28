@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+/* .card {
+    width: 100%;
+    height: 60%;
+ 
+    background: #e0e0e0;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+   } */
+a{
+    text-decoration: none;
+}
+.image-card {
+    display: block;
+    width: 100%;
+    margin-top: 5vh;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #1e2024);
+    z-index: 10;
+}
+
+
+.main-tittle-card {
+    position: relative;
+    width: 50vw;
+    text-align:center;
+    text-decoration:none!important;
+    /* color:#31404B; */
+    color:black;
+}
+
+.title-card {
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+}
+
+.paragraph-card {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    width: 18vw;
+    margin-top: 7vw;
+    font-size: medium;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+@media (min-width: 340px) {
+    .main-tittle-card{
+        margin-top: 3vh;
+        margin-left: 1rem;
+        width:90vw;
+    }
+}
+
+@media (min-width: 600px) {
+    .main-tittle-card{
+        margin-left: 2rem;
+        width:90vw;
+        font-size: 55px;
+    }
+}
+
+@media (min-width: 1240px) {
+    .card {
+        width: 50vw;
+       }
+    .main-tittle-card{
+        margin-top:5vh;
+        margin-left: -15rem;
+    }
+    .link-card {
+        width: 10vw;
+        height: 30vw;
+    }
+    .image-card {
+        display: block;
+        width: 100vw;
+        margin-top: 5vh;
+        margin-left:-55vh;
+    }
+}

@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  transition: ease all .3s;
+}
+
+body{
+  transition: ease all .3s;
+}
+.App{
+  height: 100vh;
+  
+}

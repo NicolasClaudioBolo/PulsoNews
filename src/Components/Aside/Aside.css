@@ -1,0 +1,23 @@
+@media (max-width: 1020px) {
+    .aside-container {
+        display: none;
+    }
+}
+
+
+.aside-title {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 30px;
+    
+    color: #333;
+    height: 100%;
+}
+
+.link-article{
+    text-decoration: none;
+    color: #333;
+}
+
+
+/* border-top: 1px solid #c9c9c9; */

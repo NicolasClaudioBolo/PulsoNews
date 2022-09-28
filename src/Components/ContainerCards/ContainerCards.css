@@ -1,0 +1,14 @@
+.containerCards {
+    margin-left: 0;
+}
+
+
+@media screen and (min-width: 125px) and (max-width:988px) {
+    .containerCards {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

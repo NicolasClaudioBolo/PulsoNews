@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+ 
+
+.card-home-main {
+    width: 48vw;
+    height: 22vw;
+
+
+    font-size: 18px;
+    background-color: #EDEFF4 !important;
+
+    /* Center slide text vertically */
+
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-card-home-main {
+    display: block;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-container-home-main {
+    width: 50%;
+
+    height: 100%;
+    background-color: #fff;
+}
+
+.main-tittle-card-home-img {
+    position: absolute;
+    background-color: black;
+    opacity: .7;
+    width: 14vw;
+
+
+}
+
+.title-card-home-main-img {
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+
+}
+
+.second-container-home {
+
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    border-bottom: 1px solid #E4E7ED !important;
+    margin-top: 4vw;
+
+
+}
+
+.main-tittle-card-home-main {
+
+
+
+    width: 20vw;
+    margin-bottom: 1vw;
+}
+
+.title-card-home-main-img {
+
+    position: absolute;
+    background-color: black;
+    opacity: .7;
+    width: 14vw;
+
+}
+
+
+.title-card-home-main {
+    font-weight: 700;
+    line-height: 1.2;
+    color: #31404B;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFF;
+
+
+
+
+}
+
+.paragraph-card-home-main {
+
+    color: #9A9DA2;
+    text-align: center;
+    width: 22vw;
+
+    font-size: medium;
+    font-family: 'Barlow', sans-serif;
+    margin-bottom: 8vw;
+
+}
+
+
+.link-card-home-main {
+    text-decoration: none;
+}
+
+
+
+@media screen and (min-width: 200px) and (max-width:900px) {
+
+
+    .card-home-main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        height: auto;
+    }
+
+    .image-card-home-main {
+        width: 100%;
+    }
+
+    .main-container-home-main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-card-home-main {
+        width: auto;
+    }
+
+    .main-tittle-card-home-main {
+        width: 100%;
+        text-align: center;
+    }
+
+    .second-container-home {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .paragraph-card-home-main {
+        margin: 0 auto;
+        width: 100%;
+    }
+}

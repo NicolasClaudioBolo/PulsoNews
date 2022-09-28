@@ -1,0 +1,24 @@
+.FollowUs-main{
+    display: none;
+}
+
+ 
+@media (min-width: 1240px) {
+    .FollowUs-main{
+        width: 16vw;
+        height: fit-content;
+        margin:  30px 40px 0px 40px;
+        background-color: #ffff;
+        display: block;
+    }
+}
+
+@media (min-width: 1500px) {
+    .FollowUs-main{
+        width: 16vw;
+        height: fit-content;
+        margin:  40px 40px 0px 40px;
+        background-color: #ffff;
+        display: block;
+    }
+}

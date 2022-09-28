@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+@media (min-width: 1240px) {
+    .FollowUsTittle {
+        font-weight: 700;
+        line-height: 1.2;
+        color: #31404B;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #FFF;
+        border: 1px solid #dee2e6;
+        border-left: 5px solid #FFCC00;
+        display: flex;
+        font-size: 1rem;
+        align-items: center;
+        position: relative;
+        width: auto;
+        height: 3vw;
+        padding-left: 10px;
+    }
+
+}

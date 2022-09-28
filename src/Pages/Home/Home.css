@@ -1,0 +1,134 @@
+.home{
+    background-color: #EDEFF4 !important;
+    overflow-x: hidden;
+}
+/* .home-section{
+    background-color:  #1E2024;
+} */
+.home-container{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #EDEFF4 !important;
+}
+.home-container-main{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    border: #d1d1d1 solid 2px;
+    margin-top:10vh;
+}
+ 
+
+.home-container-pagination{   
+    background-color: #EDEFF4 !important;
+    width: 60%;
+    margin: 50px auto;
+    height: 50vh;   
+}
+
+.home-contact-position{
+    align-items: center;
+}
+
+ 
+
+.container-home-2{
+    display: block;
+    margin-top: 5vh;
+}
+
+.publicidad-banner{
+    margin: 0 auto;
+    margin-top: 10vh;
+    width: 93vw;
+    height: 8vw;
+    background-color: white; 
+}
+
+@media (min-width: 350px) {
+    .publicidad-banner{
+        margin: 0 auto;
+        margin-top: 5vh;
+        width: 93vw;
+        height: 8vw;
+        background-color: white; 
+    }
+    .home-container-pagination{   
+        background-color: #EDEFF4 !important;
+        width: 60%;
+        margin: 50px auto;
+        height: 170vh;   
+    }
+}
+
+@media (min-width: 550px) {
+    .publicidad-banner{
+        margin: 0 auto;
+        margin-top: -13vh;
+        width: 97vw;
+        height: 12vw;
+        background-color: white; 
+    }
+    .home-container-pagination{   
+        background-color: #EDEFF4 !important;
+        width: 60%;
+        margin: 50px auto;
+        height: 40vh;   
+    }
+}
+
+@media (max-width: 968px) {
+    .home-container-main{
+        display: flex;
+        flex-direction: column; 
+        margin-top:10vh;
+    }
+    .home-container-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .publicidad-banner{
+        margin: 0 auto;
+        margin-top: 3vh;
+        width: 97vw;
+        height: 12vw;
+        background-color: white; 
+    }
+}
+
+@media (min-width: 1240px) {
+    .container-home-2{
+        display: flex;
+    }
+
+    .home-container-main{
+        display: flex;
+        margin-top:20vh;
+        
+    }
+    .home-container-container{
+        display: flex;
+        flex-direction: column;
+        margin: auto 0;
+        justify-content: space-between!important;
+    }
+
+    .home-container-pagination{   
+        background-color: #EDEFF4 !important;
+        width: 100%;
+        margin: 0;
+        
+    }
+    .publicidad-banner{
+        margin: 0 auto;
+        margin-top: 53vh;
+        width: 100vw;
+        height: 10vw;
+        background-color: white; 
+    }
+    
+   
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+.card-home {
+    width: auto;
+    height: auto;
+    margin-left: 1vw;
+    background: #e0e0e0;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+.card-home:first-child{
+    margin-left: 0;
+}
+
+.image-card-home{
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.link-card-home{
+    position: relative;
+}
+.main-title-card-home {
+
+    position: relative;
+    width: 100%;
+    z-index: 100;    
+}
+
+.title-card-home {
+    color:black;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    z-index: 1000; 
+}
+
+.paragraph-card-home {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    width: 12vw;
+    margin-top: 7vw;
+    font-size: medium;
+    font-family: 'Barlow', sans-serif;
+    z-index: 100;
+}
+
+@media screen and (min-width: 350px) and (max-width:1239px) {
+    .image-card-home{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 1;
+    }
+    .card-home-position{
+        margin:20px;
+    }
+}
+
+@media (min-width: 1240px) {
+    .card-home {
+        width: auto;
+        height: auto;
+        margin-left: 1vw;
+        background: #e0e0e0;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+    
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+       }
+    
+    .card-home:first-child{
+        margin-left: 0;
+    }
+    
+    .image-card-home {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 1;
+    }
+    
+    .link-card-home{
+        position: relative;
+    }
+    .main-tittle-card-home {
+    
+        position: absolute;
+        background-color: black;
+        opacity: .7;
+        width: 100%;
+        z-index: 100;
+        top: 50%
+         
+    }
+    
+    .title-card-home {
+        color: black;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 700;
+        z-index: 1000;
+         
+         
+    }
+    
+    .paragraph-card-home {
+        position: absolute;
+        color: #fff;
+        text-align: center;
+        width: 12vw;
+        margin-top: 7vw;
+        font-size: medium;
+        font-family: 'Barlow', sans-serif;
+        z-index: 100;
+    }
+}
+
+@media (min-width: 1500px) {}

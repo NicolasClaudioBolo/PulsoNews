@@ -1,0 +1,32 @@
+.main-div-card-home{
+    display: flex;
+    width: 60vw; 
+    flex-wrap: wrap;  
+    margin: 20px auto;
+     
+    
+}
+
+@media screen and (min-width: 350px) and (max-width:550px) {
+    .main-div-card-home{
+        display: flex;
+        width: 100vw;  
+    }
+}
+
+@media (min-width: 768px) {
+    .main-div-card-home{
+        display: flex;
+        width: 100vw; 
+        flex-wrap: nowrap;  
+    }
+}
+
+@media (min-width: 1240px) {
+    .main-div-card-home{
+        display: flex;
+        width: 74vw;    
+    }
+}
+
+@media (min-width: 1500px) {}

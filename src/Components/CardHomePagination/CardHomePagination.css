@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+.card-home-pagination {
+    width: 50vw;
+    height: 50vw;
+    margin-top: 1vw;
+    background: #e0e0e0;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    
+   }
+
+.card-home-pagination:first-child{
+    margin-left: 0;
+    position:relative;
+}
+
+.image-card-home-pagination {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 10;
+}
+
+
+.main-tittle-card-home-pagination {
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #000000);
+    z-index: 10;
+    opacity: .7;
+    width: 50vw;
+    height:100%;
+   z-index: 100;
+ 
+}
+
+.title-card-home-pagination {
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    font-size:23px;
+    width: 100%;
+    z-index: 100;
+    position:absolute;
+    margin-top:38vh;
+    margin-left: -26vh;
+}
+
+.paragraph-card-home-pagination {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    width: 12vw;
+    margin-top: 7vw;
+    font-size: medium;
+    font-family: 'Barlow', sans-serif;
+    z-index: 100;
+}
+
+@media (min-width: 1240px) {
+    .card-home-pagination {
+        width: 22vw;
+        height: 22vw;
+       }
+       .main-tittle-card-home-pagination {
+        width:  22vw;
+    }
+    .title-card-home-pagination {
+        color: #fff;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 700;
+        font-size:23px;
+        width: 100%;
+        z-index: 100;
+        position:absolute;
+        margin-top:31vh;
+        margin-left: -23vh;
+    }
+}
+
+@media (max-width: 999px) {
+    .card-home-pagination {
+        width: 32vw;
+        height: 32vw;
+       }
+       .main-tittle-card-home-pagination {
+        width:  32vw;
+    }
+    .title-card-home-pagination {
+        color: #fff;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 700;
+        font-size:22px;
+        width: 90%;
+        z-index: 100;
+        position:absolute;
+        margin-top:14vh;
+        margin-left: -9vh;
+    }
+    
+}
+
+
+@media (max-width: 768px) {
+    .card-home-pagination {
+        width: 62vw;
+        height: 62vw;
+      
+       }
+       .main-tittle-card-home-pagination {
+        width:  62vw;
+    }
+    .title-card-home-pagination {
+        color: #fff;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 700;
+        font-size:23px;
+        width: 100%;
+        z-index: 100;
+        position:absolute;
+        margin-top:31vh;
+        margin-left: -11vh;
+        width:60%;
+    }
+}
+
+@media (max-width: 600px) {
+    .card-home-pagination {
+        width: 80vw;
+        height: 80vw;
+      
+       }
+       .main-tittle-card-home-pagination {
+        width:  80vw;
+    }
+    .title-card-home-pagination {
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    font-size:26px;
+    width: 100%;
+    z-index: 100;
+    position:absolute;
+    margin-top:58vh;
+    margin-left: -36vh;
+} }
+
+@media (min-width: 350px){
+    .title-card-home-pagination {
+        color: #fff;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 700;
+        font-size:22px;
+        width: 90%;
+        z-index: 100;
+        position:absolute;
+        margin-top:25vh;
+        margin-left: -18vh;
+    }
+}
+
+@media screen and (min-width:390px) and (min-height:840px){
+    .title-card-home-pagination {
+        color: #fff;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 700;
+        font-size:22px;
+        width: 50%;
+        z-index: 100;
+        position:absolute;
+        margin-top:28vh;
+        margin-left: -10vh;
+    }
+}
+
+@media screen and (min-width:800px) and (min-height:1000px){
+    .title-card-home-pagination {
+        color: #fff;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 700;
+        font-size:22px;
+        width: 90%;
+        z-index: 100;
+        position:absolute;
+        margin-top:14vh;
+        margin-left: -10vh;
+    }
+}
+    

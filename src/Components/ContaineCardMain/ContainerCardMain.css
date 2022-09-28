@@ -1,0 +1,10 @@
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1240px) {
+    .container-cards-main{
+        margin-left: 40px;
+    }
+}
+
+@media (min-width: 1500px) {}

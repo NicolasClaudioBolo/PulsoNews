@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+
+.container-nav {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-publicidad {
+    width: 20%;
+    padding-top: 1vw;
+}
+
+
+
+@media (min-width: 168px) {
+    .logo-publicidad {
+        width: 50%;
+        padding-top: 1vw;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .logo-publicidad {
+        width: 80%;
+    }
+}
+
+@media (min-width: 940px) {
+    .logo-publicidad {
+        width: 20%;
+        height: 13vh;
+        padding-top: 1vw;
+    }
+    
+}
+
+@media (min-width: 1500px) {}
+
+
+@media (min-width: 1800px) {}
