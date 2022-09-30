@@ -46,9 +46,9 @@ export const Home = () => {
                 <div className='home-container-container'>
                     <CardMainHome title={CardMainHomeObj.title} paragraph={CardMainHomeObj.paragraph} id={CardMainHomeObj.id} image={CardMainHomeObj.image} />
                     <CardMainHome title={CardMainHomeObj.title} paragraph={CardMainHomeObj.paragraph} id={CardMainHomeObj.id} image={CardMainHomeObj.image} />
-                </div>
+                
                 {/* <Slider home={true} arrayImage={arraySmallCards} /> */}
-                <div>
+                
                     {/* Especificar tamaño de la imagen en esta sección */}
                     <MapDailyNewCard />
                 </div>

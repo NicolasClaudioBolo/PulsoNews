@@ -36,7 +36,7 @@ export const NoticeTemplate = props => {
                    
                 </div>
                 <div>
-                    <img className='img-notice' src={image} alt="joven" />
+                    <img className='img-bottom' src={image} alt="joven"/>
                     <p className='description-notice'>{description}</p>
                 </div>
                 <div className='notice-container-2'>
@@ -81,7 +81,7 @@ export const NoticeTemplate = props => {
                 </div>
 
                 <div>
-                    <img src={image} alt="joven" />
+                    <img src={image} alt="joven" className='img-bottom' />
 
                 </div>
 

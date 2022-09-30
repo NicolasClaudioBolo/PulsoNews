@@ -104,7 +104,7 @@ export const lastNewsArray = [
         
         title: 'Redes sociales',
         id: 1,
-        paragraph: 'Elon Musk canceló de compra de Twitter: deberá pagar mil millones de dólares de multa',
+        paragraph: 'Elon Musk canceló la compra de Twitter: deberá pagar mil millones de dólares de multa',
         subTitle: 'Se llama Leonardo David Sena, tiene 39 años y antecedentes. Los investigadores llegaron al nuevo detenido por un cruce de muestras de ADN relacionado a otro impactante hecho.',
         description: 'El hombre más rico del mundo había firmado un contrato de 44.000 millones de dólares.',
         date: '20/05/2022 9:50',

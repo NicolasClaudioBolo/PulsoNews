@@ -7,6 +7,7 @@
 
 .article-text-position{
     height:100%;
+    width:100%;
     position: absolute;
     top: 0%;
     left:0;
@@ -17,6 +18,7 @@
 .daily-new-container{
     position: relative;
     text-align: center;
+    width:100%;
     color: rgb(0, 0, 0);  
     
 }
@@ -37,12 +39,28 @@
         background-image: linear-gradient( rgba(187, 187, 187, 0.5),rgb(0,0,0,0.9));
     }
     .daily-new-container{
-        margin-top: 0vh;
+        position: relative;
+        text-align: center;
+        width:100%;
+        margin-top:0;
+        color: rgb(0, 0, 0);  
+        
     }
 }
 
 @media screen and (min-width:768px) and (min-height:1024px){
     .daily-new-container{
+        position: relative;
+        text-align: center;
+        width:100%;
+        margin-top:0;
+        color: rgb(0, 0, 0);  
+        
+    }
+    .article-img-size{
+        width: 100%;
+        height: auto;
+        position: relative;
         margin-top: 0vh;
     }
     .article-text-position{
@@ -52,16 +70,16 @@
         left:0;
         z-index:1000;
         font-size: 50px;
-        width:100vw;
+        width:100%;
         background-image: linear-gradient( rgba(187, 187, 187, 0.5),rgb(0,0,0,0.9));
     }
 }
 
 @media screen and (min-width:530px) and (max-width:750px){
     .article-text-position{
-        height:35vh;
+        height:100%;
         position: absolute;
-        top: 38%;
+        top: 0;
         left:0;
         z-index:1000;
         width:100vw;

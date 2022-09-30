@@ -167,11 +167,11 @@
         font-family: 'Barlow', sans-serif;
         font-weight: 700;
         font-size:22px;
-        width: 90%;
+        width: 70%;
         z-index: 100;
         position:absolute;
         margin-top:25vh;
-        margin-left: -18vh;
+        margin-left: -14vh;
     }
 }
 
@@ -184,8 +184,8 @@
         width: 50%;
         z-index: 100;
         position:absolute;
-        margin-top:28vh;
-        margin-left: -10vh;
+        margin-top:23vh;
+        margin-left: -9vh;
     }
 }
 

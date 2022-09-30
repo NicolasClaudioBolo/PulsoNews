@@ -46,7 +46,25 @@
     background-color: white; 
 }
 
-@media (min-width: 350px) {
+@media (min-width:275px) {
+    .home-container-pagination{   
+        background-color: #EDEFF4 !important;
+        width: 60%;
+        margin: 50px auto;
+        height: 150vh;   
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 375px) {
+    .home-container-pagination{   
+        background-color: #EDEFF4 !important;
+        width: 60%;
+        margin: 50px auto;
+        height: 175vh;   
+    }
+}
+
+@media (min-width: 376px) {
     .publicidad-banner{
         margin: 0 auto;
         margin-top: 5vh;
@@ -58,11 +76,11 @@
         background-color: #EDEFF4 !important;
         width: 60%;
         margin: 50px auto;
-        height: 170vh;   
+        height: 150vh;   
     }
 }
 
-@media (min-width: 550px) {
+@media (min-width: 540px) {
     .publicidad-banner{
         margin: 0 auto;
         margin-top: -13vh;
@@ -75,6 +93,11 @@
         width: 60%;
         margin: 50px auto;
         height: 40vh;   
+    }
+    .home-container-main{
+        display: flex;
+        flex-direction: column; 
+        margin-top:50vh;
     }
 }
 
@@ -107,6 +130,7 @@
     .home-container-main{
         display: flex;
         margin-top:20vh;
+        flex-direction: row;
         
     }
     .home-container-container{
