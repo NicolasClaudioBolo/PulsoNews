@@ -50,6 +50,9 @@ export const Home = () => {
                 {/* <Slider home={true} arrayImage={arraySmallCards} /> */}
                 
                     {/* Especificar tamaño de la imagen en esta sección */}
+                    
+                </div>
+                <div>
                     <MapDailyNewCard />
                 </div>
             </div>
