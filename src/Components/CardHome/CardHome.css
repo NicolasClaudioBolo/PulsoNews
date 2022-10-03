@@ -39,6 +39,7 @@
     color:black;
     font-family: 'Barlow', sans-serif;
     font-weight: 700;
+    font-size:22px;
     z-index: 1000; 
 }
 
@@ -62,7 +63,7 @@
         z-index: 1;
     }
     .card-home-position{
-        margin:20px;
+        margin:40px;
     }
 }
 
